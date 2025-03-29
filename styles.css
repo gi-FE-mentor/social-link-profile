@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Inter-Variable';
+  src: url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('wdht');
+  font-weight: normal;
+  font-style: normal;
+}
+body,
+html {
+  font-family: 'Inter-Variable', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #162521;
+  color: #f8f4e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+p {
+  margin: 0;
+}
+.card {
+  background-color: #3c474b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 24px;
+  border-radius: 10px;
+  width: 26vw;
+}
+.basic-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.link {
+  padding: 14px 10%;
+  margin-bottom: 12px;
+  background-color: #6b8380;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  width: 80%;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+a {
+  color: #f8f4e3;
+}
+.link:hover {
+  cursor: pointer;
+  transform: translateX(-3px) translateY(-2px);
+  box-shadow: 2px 2px #f8f4e3;
+}
+.text-preset-1 {
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 150%;
+  letter-spacing: 0;
+}
