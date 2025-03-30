@@ -24,10 +24,10 @@ This project is a social media profile card that displays my avatar, basic infor
 ![Social Links Profile Screenshot](/assets/images/Screenshot.png?raw=true "Optional Title")
 
 # Future Improvements
-Add dark/light mode toggle
-Implement animation effects
-Add language selection option
-Expand with additional social profiles
+- Add dark/light mode toggle
+- Implement animation effects
+- Add language selection option
+- Expand with additional social profiles
 # License
 This project is open source and available under the MIT License.
 
