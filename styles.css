@@ -37,6 +37,10 @@ p {
   flex-direction: column;
   margin-top: 12px;
 }
+.link:focus {
+  outline: 2px dashed white;
+  outline-offset: 2px;
+}
 .link {
   padding: 14px 10%;
   margin-bottom: 12px;
@@ -68,6 +72,7 @@ a {
 }
 .tooltip::after {
   content: attr(data-tooltip);
+  font-family: 'Inter-Variable', sans-serif !important;
   position: absolute;
   bottom: 125%; /* position above the link */
   left: 50%;
@@ -83,4 +88,8 @@ a {
 }
 .tooltip:hover::after {
   opacity: 1;
+}
+.tooltip:focus::after {
+  opacity: 1;
+  pointer-events: auto;
 }
